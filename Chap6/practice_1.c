@@ -14,18 +14,19 @@ int main(void)
     */
 	int i, j;
 
-	for (i = 4; i > 0; i--)
+	for (i = 4; i >= 0; i--)
 	{
-		for (j = 0; j < 2*i; j++)
+		// 역피라미드
+		for (j = 5; j > i+1; j--)
 		{
 			printf(" ");
 		}
-		for (j = 0; j < 5-i; j++)
+		for (j = 0; j < 2*i+1; j++)
 		{
 			printf("*");
 		}
 		
-
+		// 피라미드 i 를 0부터 바꿔야함 
 		/*for (j = 4; j > i; j--)
 		{
 			printf(" ");
