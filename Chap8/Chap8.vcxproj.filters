@@ -15,40 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="func1.c">
+    <ClCompile Include="8-1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="func2.c">
+    <ClCompile Include="8-3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="func3.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="func4.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-2.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-3.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-4.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Calculator_v4.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="practice_1.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-5.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-6.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-7.c">
+    <ClCompile Include="8-2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
