@@ -11,7 +11,12 @@ int main(void)
 
 	count = sizeof(score) / sizeof(score[0]);   
 
-	for (i = 0; i < count; i++)       
+	printf("%d\n", sizeof(score));
+	printf("%d\n", sizeof(score[0]));
+
+	printf("%d\n", count);
+
+	/*for (i = 0; i < count; i++)       
 	{
 		scanf("%d", &score[i]);
 	}
@@ -28,7 +33,7 @@ int main(void)
 	}
 	printf("\n");
 
-	printf("ЦђБе : %.1lf\n", avg);
+	printf("ЦђБе : %.1lf\n", avg);*/
 
 	return 0;
 }
