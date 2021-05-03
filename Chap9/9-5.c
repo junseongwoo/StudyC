@@ -4,7 +4,7 @@ int main(void)
 {
 	char ch;
 	int in;
-	double db
+	double db;
 
 	char *pc = &ch;
 }
