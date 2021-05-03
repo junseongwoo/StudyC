@@ -23,6 +23,7 @@ int main()
 
 	for (i = 0; i < 5; i++) {  // 배열 연산식
 		printf("ary[%d] = %d\t\n", i, pary[i]);
+		pary[i]++;
 	}
 	printf("\n");
 
