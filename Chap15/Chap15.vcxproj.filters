@@ -39,5 +39,17 @@
     <ClCompile Include="15-6.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15-7.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15-8.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculator_v6.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15-9.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
