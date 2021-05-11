@@ -37,28 +37,26 @@ int main(void)
 		{
 			break;
 		}
-		
 	}
-	printf("저장된 아이디는 : %s\n", m.id);
+	/*printf("저장된 아이디는 : %s\n", m.id);
 	printf("저장된 비밀번호 : %s\n", m.password);
-
 	printf("%d\n", strlen(m.id));
-	printf("%d\n", strlen(m.password));
+	printf("%d\n", strlen(m.password));*/
 
 	printf("아이디를 입력하세요 : ");
 	scanf("%s", id);
-	getchar();
 	printf("비밀번호를 입력하세요 : ");
 	scanf("%s", password);
-	getchar();
 
-	printf("입력된 아이디는 : %s\n", id);
+	/*printf("입력된 아이디는 : %s\n", id);
 	printf("입력된 비밀번호 : %s\n", password);
 	printf("%d\n", strlen(id));
-	printf("%d\n", strlen(password));
+	printf("%d\n", strlen(password));*/
 
-
-	if (strcmp(id, m.id) == 0)
+	// 문자열 비교 함수 strcmp 
+	// 문자열 파트 다시 공부 할 것 
+	printf("---------------------------\n");
+	if (strcmp(id, m.id) == 0) 
 	{
 		if (strcmp(password, m.password) == 0)
 		{
