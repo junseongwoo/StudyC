@@ -21,6 +21,12 @@
     <ClInclude Include="user.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="point.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -51,6 +57,18 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="sum.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="input.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="average.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
