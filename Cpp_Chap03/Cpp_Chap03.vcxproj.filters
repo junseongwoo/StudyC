@@ -51,5 +51,17 @@
     <ClCompile Include="InitRefMember.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="int2Time.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="double2Time.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Convertint.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
