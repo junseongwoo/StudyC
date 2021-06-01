@@ -42,5 +42,14 @@
     <ClCompile Include="CopyConstructor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="prac1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InitConstMember.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InitRefMember.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
