@@ -31,4 +31,4 @@ int main()
 	Time t(12, 34, 56);
 	d.OutToday(t);
 }
-
+
