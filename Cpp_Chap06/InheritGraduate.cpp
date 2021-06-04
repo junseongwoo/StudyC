@@ -7,12 +7,13 @@ class Human
 protected:
 	char name[12];
 	int age;
-
+	
 public:
 	Human(const char* aname, int aage) {
 		strcpy(name, aname);
 		age = aage;
 	}
+
 	void intro() {
 		printf("이름 = %s, 나이 = %d\n", name, age);
 	}
@@ -27,21 +28,29 @@ public:
 	Student(const char* aname, int aage, int astunum) : Human(aname, aage) {
 		stunum = astunum;
 	}
-	void study() {
-		printf("이이는 사, 이삼은 육, 이사 팔\n");
+	void study()
+	{
+		printf("구구단 너무 쉽");
 	}
-	void intro() {
-		printf("%d학번 %s입니다.\n", stunum, name);
+};
+
+class Graduate : public Student
+{
+protected:
+	char thesis[32];
+
+public:
+	Graduate(const char* aname, int aage, int astunum, const char* athesis)
+		: Student(aname, aage, astunum) {
+		strcpy(thesis, athesis);
+	}
+	void research() {
+		printf("%s을 연구하고 논문을 쓴다\n", thesis);
 	}
 };
 
 int main()
 {
-	Human kim("김상형", 29);
-	kim.intro();
-	Student han("김한결", 15, 123456);
-	han.intro();
-
-	han.Human::intro();   // 부모에 있는 함수를 쓰기 위해
-	
+	Graduate moon("문종민", 45, 920629, "게임방 상권 분석");
+	moon.research();
 }
