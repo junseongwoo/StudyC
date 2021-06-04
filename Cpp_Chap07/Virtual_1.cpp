@@ -27,6 +27,5 @@ int main()
 	pb->func2();
 	pb->func3();
 
-
 	return 0;
 }
