@@ -154,6 +154,7 @@
     <ClCompile Include="Overrideable.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="PureVirtual.cpp" />
     <ClCompile Include="VirtDestructor2.cpp" />
     <ClCompile Include="VirtFunc.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
