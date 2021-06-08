@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Fitness.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="alphabet.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Fitness_1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Link_Test1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

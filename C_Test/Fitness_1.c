@@ -33,17 +33,22 @@ int main() {
 }
 
 void total_number(int count) {
+
 }
 
 double average_weight(Fitness** pary, int count) { 
+
 }
 
 int max_weight(Fitness** pary, int count) {
+
 }
 
 void print_info(Fitness** pary, int index) {
+
 }
 
 void free_ary(Fitness** pary, int count) {
+
 }
 
