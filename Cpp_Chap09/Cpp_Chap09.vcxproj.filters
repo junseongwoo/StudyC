@@ -51,5 +51,11 @@
     <ClCompile Include="tryctor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="unexpect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="exdynamic.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
